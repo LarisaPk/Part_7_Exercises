@@ -1,0 +1,9 @@
+post http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Inp4Y3ZiIiwiaWQiOiI1ZTBhNGMxMWYxOTAyODNmYjAxOGIxZGQiLCJpYXQiOjE1Nzc3MzMyODB9.hR6H4clfBhae7YSAQWEVsxGbGDFYfRrEyWQmrxNublU
+
+{
+  "title": "for testing",
+  "author": "Some Authorqwerty",
+  "url": "/url/url.com"
+}
